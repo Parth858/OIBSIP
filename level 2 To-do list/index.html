@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do List</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video id="video-background" autoplay muted loop>
+    <source src="video3.mp4" type="video/mp4">
+  </video>
+	<div class="container">
+		<h1>To-Do List</h1>
+		<form>
+			<label for="input">Add new item:</label>
+			<input type="text" id="input" placeholder="Enter a task...">
+			<button type="button" id="addBtn">Add</button>
+		</form>
+		<ul id="list"></ul>
+		<p id="errorMsg"></p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
